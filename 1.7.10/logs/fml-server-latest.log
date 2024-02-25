@@ -586,3 +586,13 @@ java.io.IOException: Connection reset by peer
 [18:53:11] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
 [18:53:56] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
 [18:54:41] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[18:55:26] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[18:56:00] [Netty IO #3/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[18:56:00] [Netty IO #3/INFO] [FML/]: Client protocol version 2
+[18:56:00] [Netty IO #3/TRACE] [FML/]: $ModList:4 mods->FMLHandshakeServerState$2:HELLO
+[18:56:00] [Netty IO #3/INFO] [FML/]: Client attempting to join with 4 mods : tlauncher_custom_cape_skin@1.0,FML@7.10.99.99,Forge@10.13.4.1614,mcp@9.05
+[18:56:00] [Netty IO #3/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[18:56:01] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[18:56:01] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[18:56:01] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[18:56:01] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
