@@ -42,3 +42,225 @@
 [14:59:00] [main/DEBUG] [FML/]: Minecraft validated, launching...
 [14:59:00] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
 [14:59:00] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[14:59:02] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[14:59:06] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[14:59:06] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[14:59:07] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[14:59:07] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[14:59:07] [Server thread/DEBUG] [FML/]: File /root/minecraft-forge-1.7.10/1.7.10/config/injectedDependencies.json not found. No dependencies injected
+[14:59:07] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[14:59:07] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[14:59:07] [Server thread/DEBUG] [FML/]: Minecraft is a file at /root/minecraft-forge-1.7.10/1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar, loading
+[14:59:07] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[14:59:07] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[14:59:07] [Server thread/INFO] [FML/]: Searching /root/minecraft-forge-1.7.10/1.7.10/mods for mods
+[14:59:07] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for potential mods
+[14:59:07] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1614-1.7.10-universal.jar appears to be missing an mcmod.info file
+[14:59:08] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 3 mods to load
+[14:59:08] [Server thread/TRACE] [FML/]: Received a system property request ''
+[14:59:08] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[14:59:08] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[14:59:08] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[14:59:08] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[14:59:08] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[14:59:08] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[14:59:08] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[14:59:08] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[14:59:08] [Server thread/DEBUG] [FML/]: Mod sorting data
+[14:59:08] [Server thread/DEBUG] [FML/]: No user mods found to sort
+[14:59:08] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[14:59:08] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[14:59:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
+[14:59:08] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[14:59:08] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[14:59:08] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[14:59:08] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[14:59:08] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[14:59:08] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[14:59:08] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[14:59:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.393s
+[14:59:08] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[14:59:08] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[14:59:08] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[14:59:08] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[14:59:08] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[14:59:08] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.013s
+[14:59:08] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.408s
+[14:59:08] [Server thread/DEBUG] [FML/]: Mod signature data
+[14:59:08] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[14:59:08] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[14:59:08] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[14:59:08] [Server thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[14:59:08] [Server thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1614)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[14:59:08] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[14:59:08] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[14:59:08] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[14:59:08] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[14:59:08] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[14:59:08] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[14:59:08] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[14:59:08] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[14:59:08] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[14:59:08] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[14:59:08] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[14:59:08] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[14:59:08] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[14:59:08] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.063s
+[14:59:08] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.065s
+[14:59:08] [Server thread/INFO] [FML/]: Applying holder lookups
+[14:59:08] [Server thread/INFO] [FML/]: Holder lookups applied
+[14:59:08] [Server thread/INFO] [FML/]: Injecting itemstacks
+[14:59:08] [Server thread/INFO] [FML/]: Itemstack injection complete
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.003s
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.004s
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.001s
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.008s
+[14:59:09] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.013s
+[14:59:09] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.002s
+[14:59:09] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.015s
+[14:59:09] [Server thread/INFO] [FML/]: Injecting itemstacks
+[14:59:09] [Server thread/INFO] [FML/]: Itemstack injection complete
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.001s
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.001s
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
+[14:59:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	... 4 more
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.155s
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.156s
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.001s
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.003s
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[14:59:09] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[14:59:09] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[14:59:09] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.029s
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.033s
+[14:59:09] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[14:59:09] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[14:59:09] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[14:59:09] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 3 mods
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.001s
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.001s
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.002s
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.003s
+[14:59:09] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[14:59:09] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[14:59:09] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[14:59:09] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[14:59:09] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[14:59:09] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
+[14:59:09] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.003s
+[14:59:09] [Server thread/INFO] [FML/]: Applying holder lookups
+[14:59:09] [Server thread/INFO] [FML/]: Holder lookups applied
+[14:59:09] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[14:59:09] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[14:59:09] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[14:59:09] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@773fa3e4)
+[14:59:09] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@773fa3e4)
+[14:59:09] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@773fa3e4)
+[14:59:11] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[14:59:11] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[14:59:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.001s
+[14:59:11] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[14:59:11] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[14:59:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.001s
+[14:59:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[14:59:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[14:59:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.005s
+[14:59:11] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.006s
+[14:59:11] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[14:59:11] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[14:59:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[14:59:11] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[14:59:11] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[14:59:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.001s
+[14:59:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[14:59:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[14:59:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[14:59:11] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
+[14:59:16] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[14:59:16] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[14:59:16] [Netty IO #1/TRACE] [FML/]: $ModList:4 mods->FMLHandshakeServerState$2:HELLO
+[14:59:16] [Netty IO #1/INFO] [FML/]: Client attempting to join with 4 mods : tlauncher_custom_cape_skin@1.0,FML@7.10.99.99,Forge@10.13.4.1614,mcp@9.05
+[14:59:16] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[14:59:16] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[14:59:16] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[14:59:16] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[14:59:16] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[14:59:16] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[14:59:56] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:00:01] [Netty IO #1/ERROR] [FML/]: NetworkDispatcher exception
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[?:1.8.0_392]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[?:1.8.0_392]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_392]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_392]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379) ~[?:1.8.0_392]
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:436) ~[UnpooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:870) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:87) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:480) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [SingleThreadEventExecutor$2.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392]
+[15:00:41] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
