@@ -596,3 +596,7 @@ java.io.IOException: Connection reset by peer
 [18:56:01] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
 [18:56:01] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
 [18:56:01] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[18:56:01] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[18:56:11] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[18:56:56] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[18:57:41] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
