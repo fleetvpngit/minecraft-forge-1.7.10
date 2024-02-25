@@ -264,3 +264,4 @@ java.io.IOException: Connection reset by peer
 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [SingleThreadEventExecutor$2.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_392]
 [15:00:41] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:01:26] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
