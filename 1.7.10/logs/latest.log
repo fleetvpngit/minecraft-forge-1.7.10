@@ -30,3 +30,19 @@
 [14:47:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2527ms behind, skipping 50 tick(s)
 [14:47:50] [Server thread/INFO]: berlim lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
 [14:47:50] [Server thread/INFO]: berlim left the game
+[14:52:39] [Server thread/INFO]: berlim[/191.22.155.205:62777] logged in with entity id 4006 at (232.43999248320495, 64.0, 192.3595395483071)
+[14:52:39] [Server thread/INFO]: berlim joined the game
+[14:52:41] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_392]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_392]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_392]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_392]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_392]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_392]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_392]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_392]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_392]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_392]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_392]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
