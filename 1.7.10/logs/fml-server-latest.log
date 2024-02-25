@@ -236,3 +236,5 @@
 [14:56:26] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
 [14:56:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
 [14:56:26] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
+[14:57:11] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[14:57:56] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
