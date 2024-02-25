@@ -398,3 +398,4 @@ java.io.IOException: Connection reset by peer
 [16:33:24] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
 [16:33:24] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
 [16:33:41] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:34:26] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
